@@ -40,11 +40,11 @@ $ npm run build
 
 ## Stack
 
-[React]: http://facebook.github.io/react/
-[Redux]: https://github.com/gaearon/redux
-[Babel]: https://babeljs.io/
-[ESLint]: http://eslint.org/
-[Webpack]: http://webpack.github.io/
+[React](http://facebook.github.io/react/)
+[Redux](https://github.com/gaearon/redux)
+[Babel](https://babeljs.io/)
+[ESLint](http://eslint.org/)
+[Webpack](http://webpack.github.io/)
 
 ## License
 
