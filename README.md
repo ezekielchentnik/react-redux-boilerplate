@@ -3,23 +3,21 @@
 ## Installation
 
 ``` bash
-$ npm install
+$ npm install && npm start
 ```
 
 ### Development
 
-The Webpack dev server will run on [localhost:4080](http://localhost:4080).
-
 ``` bash
 $ npm start
 ```
+The Webpack dev server will run on [localhost:4080](http://localhost:4080).
 
-### Build (for release)
+### Build
 
 ``` bash
 $ npm run build
 ```
-
 
 ### Testing
 
@@ -39,7 +37,7 @@ $ npm run lint
 ## Structure
 
 ``` bash
-.
+
 ├── dist                    # built dist
 │   └── css                 
 │   └── images              
@@ -72,11 +70,11 @@ $ npm run lint
 
 ## Stack
 
-  [React](http://facebook.github.io/react/)
-  [Redux](https://github.com/gaearon/redux)
-  [Babel](https://babeljs.io/)
-  [ESLint](http://eslint.org/)
-  [Webpack](http://webpack.github.io/)
+  - [React](http://facebook.github.io/react/)
+  - [Redux](https://github.com/gaearon/redux)
+  - [Babel](https://babeljs.io/)
+  - [ESLint](http://eslint.org/)
+  - [Webpack](http://webpack.github.io/)
 
 ## License
 
