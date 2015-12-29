@@ -51,17 +51,17 @@ $ npm run lint
 │   └── js                  
 │   └── index.html          
 ├── src                     # source
-│   └── css                 # postcss/sass syntax
-│   └── images              # static image assets
+│   └── css                 # css/sass, compiled w/postcss
+│   └── images              # .png,.svg,.gif optimized w/webpack
 │   └── js                  # react/redux source
-│     ├── actions           # redux actions
+│     ├── actions           # redux actions, w/thunk
 │     ├── components        # react components
 │     ├── constants         # constants
 │     ├── containers        # containers
 │     ├── reducers          # reducers
-│     ├── selectors         # selectors
-│     ├── store             # redux configureStore
-│     ├── utils             # utilities/helpers
+│     ├── selectors         # selectors, using reselect
+│     ├── store             # store, w/devtools & prod config
+│     ├── utils             # utilities/helpers, support immatable
 │     └── index.js          # app entry
 │   └── index.html          # app shell
 ├── test
