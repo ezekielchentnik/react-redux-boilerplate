@@ -52,6 +52,7 @@ $ npm run lint
 │     ├── constants         # constants
 │     ├── containers        # containers
 │     ├── reducers          # reducers
+│     ├── selectors         # selectors
 │     ├── store             # redux configureStore
 │     ├── utils             # utilities/helpers
 │     └── index.js          # app entry
