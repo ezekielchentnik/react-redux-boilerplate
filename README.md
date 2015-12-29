@@ -73,9 +73,17 @@ $ npm run lint
 
   - [React](http://facebook.github.io/react/)
   - [Redux](https://github.com/gaearon/redux)
+  - [reselect](https://github.com/rackt/reselect)
+  - [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
+  - [Webpack](http://webpack.github.io/)
+  - [immutable](https://facebook.github.io/immutable-js/)
+  - [redux-thunk](https://github.com/gaearon/redux-thunk)
+  - [keyMirror](https://github.com/STRML/keyMirror)
+  - express
+  - postcss
   - [Babel](https://babeljs.io/)
   - [ESLint](http://eslint.org/)
-  - [Webpack](http://webpack.github.io/)
+  - [mocha](https://mochajs.org/)
 
 ## License
 
