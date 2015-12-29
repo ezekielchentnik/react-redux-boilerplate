@@ -68,7 +68,7 @@ $ npm run lint
 ```
 
 
-## Stack
+## Tech stack
 
   - [React](http://facebook.github.io/react/)
   - [Redux](https://github.com/gaearon/redux)
