@@ -1,25 +1,25 @@
 # React Redux Boilerplate
 
-## Installation
+### Installation
 
 ``` bash
 $ npm install && npm start
 ```
 
-### Development
+#### Development
 
 ``` bash
 $ npm start
 ```
 The Webpack dev server will run on [localhost:4080](http://localhost:4080).
 
-### Build
+#### Build
 
 ``` bash
 $ npm run build
 ```
 
-### Testing
+#### Testing
 
 ``` bash
 $ npm test
@@ -28,7 +28,7 @@ $ npm test
 $ npm test:watch
 ```
 
-### Linting
+#### Linting
 
 ``` bash
 $ npm run lint
