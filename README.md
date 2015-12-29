@@ -4,7 +4,7 @@ A boilerplate built with react & redux to spin up fantastic micro apps.
 
 ## Features
 
-...
+React, Redux, Webpack, PostCSS, Babel 6, npm scripts ...
 
 ### Installation
 
