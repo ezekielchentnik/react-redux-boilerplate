@@ -9,6 +9,7 @@ A boilerplate built with react & redux to spin up fantastic micro apps.
 ### Installation
 
 ``` bash
+$ git clone https://github.com/ezekielchentnik/react-redux-boilerplate.git
 $ npm install && npm start
 ```
 
