@@ -1,5 +1,11 @@
 # React Redux Boilerplate
 
+A boilerplate built with react & redux to spin up fantastic micro apps.
+
+## Features
+
+...
+
 ### Installation
 
 ``` bash
