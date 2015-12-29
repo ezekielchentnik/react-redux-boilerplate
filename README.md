@@ -1,50 +1,82 @@
 # React Redux Boilerplate
 
-## Development
+## Installation
+
+``` bash
+$ npm install
+```
+
+### Development
+
 The Webpack dev server will run on [localhost:4080](http://localhost:4080).
 
 ``` bash
 $ npm start
 ```
 
-## Build
+### Build (for release)
 
 ``` bash
 $ npm run build
+```
+
+
+### Testing
+
+``` bash
+$ npm test
+```
+``` bash
+$ npm test:watch
+```
+
+### Linting
+
+``` bash
+$ npm run lint
 ```
 
 ## Structure
 
 ``` bash
 .
-├── dist                  # Built files
-│   └── css               # Built files
-│   └── images            # Built files
-│   └── js                # Built files
-│   └── index.html        # Built files
-├── src
-│   ├── actions           # Actions
-│   ├── components        # Components
-│   ├── constants         # Constants
-│   ├── containers        # containers
-│   ├── reducers          # reducers
-│   ├── store             # Store
-│   ├── utils             # Utilities
-│   └── index.js          # Entry
+├── dist                    # built dist
+│   └── css                 
+│   └── images              
+│   └── js                  
+│   └── index.html          
+├── src                     # source
+│   └── css                 # postcss/sass syntax
+│   └── images              # static image assets
+│   └── js                  # react/redux source
+│     ├── actions           # redux actions
+│     ├── components        # react components
+│     ├── constants         # constants
+│     ├── containers        # containers
+│     ├── reducers          # reducers
+│     ├── store             # redux configureStore
+│     ├── utils             # utilities/helpers
+│     └── index.js          # app entry
+│   └── index.html          # app shell
 ├── test
-│   └── index.js          # Entry
-└── webpack.config.*.js   # Webpack config
+│   └── setup.js            # jsdom config
+├── .*                      # dotfiles
+├── devServer.js            # webpack/express dev server
+├── package.json            # npm
+├── README.md               # installation, usage
+├── webpack.config.dev.js   # config for dev, hot loading, devtools, etc.
+└── webpack.config.prod.js  # config for prod, minification, etc.
 
 ```
 
 
 ## Stack
 
-[React](http://facebook.github.io/react/)
-[Redux](https://github.com/gaearon/redux)
-[Babel](https://babeljs.io/)
-[ESLint](http://eslint.org/)
-[Webpack](http://webpack.github.io/)
+  [React](http://facebook.github.io/react/)
+  [Redux](https://github.com/gaearon/redux)
+  [Babel](https://babeljs.io/)
+  [ESLint](http://eslint.org/)
+  [Webpack](http://webpack.github.io/)
 
 ## License
 
