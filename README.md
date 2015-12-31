@@ -64,17 +64,20 @@ $ npm run lint
 │     ├── utils             # utilities/helpers, support immatable
 │     └── index.js          # app entry
 │   └── index.html          # app shell
-├── test
+├── test                    # tests
+│   └── *.js                # specs
 │   └── setup.js            # jsdom config
-├── .*                      # dotfiles
+├── .babelrc                # babel config
+├── .eslintrc               # eslint config
+├── .gitignore              # git config
 ├── devServer.js            # webpack/express dev server
+├── LICENSE                 # license info
 ├── package.json            # npm
 ├── README.md               # installation, usage
 ├── webpack.config.dev.js   # config for dev, hot loading, devtools, etc.
 └── webpack.config.prod.js  # config for prod, minification, etc.
 
 ```
-
 
 ## Tech stack
 
